@@ -40,3 +40,27 @@ Task Manager App is a simple Java console application for managing tasks. It all
 
    git clone https://github.com/dskotniczny99/JavaConsoleTaskManagerApp.git
 
+# Expansion for Saving Tasks in a Database
+
+The "JavaConsoleTaskManagerApp" application can be expanded to support saving tasks in a database, bringing several benefits such as data persistence, better organization.
+
+## Potential Development Directions:
+
+### 1. Database Integration
+
+Adding a database access layer enables the permanent storage of task information. It's possible to use a relational database such as MySQL, PostgreSQL, or SQLite.
+
+### 2. Entities and Relationships
+
+Defining the data structure in the database by creating appropriate entities, relationships between them, and also indexes. For example, creating a `Task` table and related entities.
+
+### 3. Implementation of DAO Layer
+
+Creating a Data Access Object (DAO) layer to handle operations like saving, reading, updating, and deleting data from the database.
+
+### 4. Additional Features
+
+Enriching the application with additional features such as sorting, filtering, and searching tasks using the capabilities offered by the database.
+
+...
+
